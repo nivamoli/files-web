@@ -1,0 +1,10 @@
+/* ----**** Header *****---- */
+
+header.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  margin: 0 20px;
+  font-family: $font-principal;
+}

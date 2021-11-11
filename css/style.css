@@ -1,0 +1,67 @@
+/* ----**** Layout *****---- */
+/* ----**** HTML *****---- */
+html {
+  font-size: 62.5%;
+  background-color: #181f2a;
+}
+
+/* ----**** Body *****---- */
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 14px;
+}
+
+/* ----**** Main *****---- */
+/* ----**** Header *****---- */
+header.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 80px;
+  margin: 0 20px;
+  font-family: "Raleway", sans-serif;
+}
+
+/* ----**** Section *****---- */
+/* ----**** Div *****---- */
+/* ----**** Footer *****---- */
+/* ----**** Utilities *****---- */
+/* ----**** Title *****---- */
+/* ----**** Anchor *****---- */
+a.principal-nav__link {
+  text-decoration: none;
+  color: #FFF;
+}
+
+/* ----**** Pgraphs *****---- */
+/* ----**** Image *****---- */
+img.header__container-icon--img {
+  width: 100px;
+}
+
+/* ----**** Components *****---- */
+/* ----**** Nav *****---- */
+/* ----**** List *****---- */
+ul.principal-nav__ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+li.principal-nav__ul {
+  margin-left: 18px;
+}
+
+/* ----**** Button *****---- */
+/* ----**** Form *****---- */
+/* ----**** Media queries *****---- */
