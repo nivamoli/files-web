@@ -1,1 +1,9 @@
 /* ----**** Button *****---- */
+
+button.main__button {
+  padding: 15px 80px;
+  background: $gradients-button;
+  border-radius: 25px;
+  border: none;
+  color: $white;
+}

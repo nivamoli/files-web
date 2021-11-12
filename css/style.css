@@ -12,9 +12,15 @@ body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-size: 14px;
+  font-family: "Open Sans", sans-serif;
 }
 
 /* ----**** Main *****---- */
+main.main {
+  text-align: center;
+  margin: 100px 40px;
+}
+
 /* ----**** Header *****---- */
 header.header {
   display: -webkit-box;
@@ -36,6 +42,13 @@ header.header {
 /* ----**** Footer *****---- */
 /* ----**** Utilities *****---- */
 /* ----**** Title *****---- */
+h1.main__title {
+  color: #FFF;
+  font-size: 2.2rem;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+
 /* ----**** Anchor *****---- */
 a.principal-nav__link {
   text-decoration: none;
@@ -43,9 +56,19 @@ a.principal-nav__link {
 }
 
 /* ----**** Pgraphs *****---- */
+p.main__pgraph {
+  color: white;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
 /* ----**** Image *****---- */
 img.header__container-icon--img {
   width: 100px;
+}
+
+img.main__img {
+  width: 300px;
 }
 
 /* ----**** Components *****---- */
@@ -63,5 +86,14 @@ li.principal-nav__ul {
 }
 
 /* ----**** Button *****---- */
+button.main__button {
+  padding: 15px 80px;
+  background: -webkit-gradient(linear, left top, right top, from(#65e2d9), color-stop(35%, #339ecc), to(#339ecc));
+  background: linear-gradient(90deg, #65e2d9 0%, #339ecc 35%, #339ecc 100%);
+  border-radius: 25px;
+  border: none;
+  color: #FFF;
+}
+
 /* ----**** Form *****---- */
 /* ----**** Media queries *****---- */
